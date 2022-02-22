@@ -51,7 +51,7 @@ public class CanCoderFactoryBuilder {
             // check this if this works
 
             double angle = (encoder.getSelectedSensorPosition() % (2048.0*12.8));
-            angle *= (2048.0*12.8/(2.0*Math.PI));
+            angle *= ((2.0*Math.PI)/2048.0*12.8);
 //
 //                    Math.toRadians(encoder.getSelectedSensorPosition()) / 12.8;
 //            angle %= 2.0 * Math.PI;
