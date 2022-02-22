@@ -4,8 +4,6 @@ import com.omagarwal25.swervelib.ctre.*;
 import com.omagarwal25.swervelib.rev.NeoDriveControllerFactoryBuilder;
 import com.omagarwal25.swervelib.rev.NeoSteerConfiguration;
 import com.omagarwal25.swervelib.rev.NeoSteerControllerFactoryBuilder;
-import com.omagarwal25.swervelib.swervelib.ctre.*;
-import com.swervedrivespecialties.swervelib.ctre.*;
 import edu.wpi.first.wpilibj.shuffleboard.ShuffleboardLayout;
 
 public final class Mk4iSwerveModuleHelper {
