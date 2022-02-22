@@ -7,7 +7,7 @@ pluginManagement {
 
 rootProject.name = 'swerve-lib'
 
-include(
-        ':examples:mk3-minibot',
-        ':examples:mk3-testchassis'
-)
+//include(
+//        ':examples:mk3-minibot',
+//        ':examples:mk3-testchassis'
+//)
