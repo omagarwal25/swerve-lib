@@ -1,4 +1,4 @@
-package com.swervedrivespecialties.swervelib;
+package com.omagarwal25.swervelib;
 
 @FunctionalInterface
 public interface AbsoluteEncoderFactory<Configuration> {

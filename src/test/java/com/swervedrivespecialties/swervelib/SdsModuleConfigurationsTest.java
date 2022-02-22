@@ -1,5 +1,6 @@
 package com.swervedrivespecialties.swervelib;
 
+import com.omagarwal25.swervelib.SdsModuleConfigurations;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

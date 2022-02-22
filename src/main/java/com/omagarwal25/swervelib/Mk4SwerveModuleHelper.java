@@ -1,13 +1,15 @@
-package com.swervedrivespecialties.swervelib;
+package com.omagarwal25.swervelib;
 
+import com.omagarwal25.swervelib.ctre.*;
+import com.omagarwal25.swervelib.rev.NeoDriveControllerFactoryBuilder;
+import com.omagarwal25.swervelib.rev.NeoSteerConfiguration;
+import com.omagarwal25.swervelib.rev.NeoSteerControllerFactoryBuilder;
+import com.omagarwal25.swervelib.swervelib.ctre.*;
 import com.swervedrivespecialties.swervelib.ctre.*;
-import com.swervedrivespecialties.swervelib.rev.NeoDriveControllerFactoryBuilder;
-import com.swervedrivespecialties.swervelib.rev.NeoSteerConfiguration;
-import com.swervedrivespecialties.swervelib.rev.NeoSteerControllerFactoryBuilder;
 import edu.wpi.first.wpilibj.shuffleboard.ShuffleboardLayout;
 
-public final class Mk4iSwerveModuleHelper {
-    private Mk4iSwerveModuleHelper() {
+public final class Mk4SwerveModuleHelper {
+    private Mk4SwerveModuleHelper() {
     }
 
     private static DriveControllerFactory<?, Integer> getFalcon500DriveFactory(Mk4ModuleConfiguration configuration) {
@@ -45,7 +47,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses Falcon 500s for driving and steering.
+     * Creates a Mk4 swerve module that uses Falcon 500s for driving and steering.
      * Module information is displayed in the specified ShuffleBoard container.
      *
      * @param container        The container to display module information in.
@@ -81,7 +83,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses Falcon 500s for driving and steering.
+     * Creates a Mk4 swerve module that uses Falcon 500s for driving and steering.
      * Module information is displayed in the specified ShuffleBoard container.
      *
      * @param container        The container to display module information in.
@@ -104,7 +106,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses Falcon 500s for driving and steering.
+     * Creates a Mk4 swerve module that uses Falcon 500s for driving and steering.
      *
      * @param configuration    Module configuration parameters to use.
      * @param gearRatio        The gearing configuration the module is in.
@@ -136,7 +138,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses Falcon 500s for driving and steering.
+     * Creates a Mk4 swerve module that uses Falcon 500s for driving and steering.
      *
      * @param gearRatio        The gearing configuration the module is in.
      * @param driveMotorPort   The CAN ID of the drive Falcon 500.
@@ -156,7 +158,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses NEOs for driving and steering.
+     * Creates a Mk4 swerve module that uses NEOs for driving and steering.
      * Module information is displayed in the specified ShuffleBoard container.
      *
      * @param container        The container to display module information in.
@@ -192,7 +194,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses NEOs for driving and steering.
+     * Creates a Mk4 swerve module that uses NEOs for driving and steering.
      * Module information is displayed in the specified ShuffleBoard container.
      *
      * @param container        The container to display module information in.
@@ -215,7 +217,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses NEOs for driving and steering.
+     * Creates a Mk4 swerve module that uses NEOs for driving and steering.
      *
      * @param configuration    Module configuration parameters to use.
      * @param gearRatio        The gearing configuration the module is in.
@@ -247,7 +249,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses NEOs for driving and steering.
+     * Creates a Mk4 swerve module that uses NEOs for driving and steering.
      *
      * @param gearRatio        The gearing configuration the module is in.
      * @param driveMotorPort   The CAN ID of the drive NEO.
@@ -267,7 +269,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses a Falcon 500 for driving and a NEO for steering.
+     * Creates a Mk4 swerve module that uses a Falcon 500 for driving and a NEO for steering.
      * Module information is displayed in the specified ShuffleBoard container.
      *
      * @param container        The container to display module information in.
@@ -303,7 +305,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses a Falcon 500 for driving and a NEO for steering.
+     * Creates a Mk4 swerve module that uses a Falcon 500 for driving and a NEO for steering.
      * Module information is displayed in the specified ShuffleBoard container.
      *
      * @param container        The container to display module information in.
@@ -326,7 +328,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses a Falcon 500 for driving and a NEO for steering.
+     * Creates a Mk4 swerve module that uses a Falcon 500 for driving and a NEO for steering.
      *
      * @param configuration    Module configuration parameters to use.
      * @param gearRatio        The gearing configuration the module is in.
@@ -358,7 +360,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses a Falcon 500 for driving and a NEO for steering.
+     * Creates a Mk4 swerve module that uses a Falcon 500 for driving and a NEO for steering.
      *
      * @param gearRatio        The gearing configuration the module is in.
      * @param driveMotorPort   The CAN ID of the drive Falcon 500.
@@ -378,7 +380,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses a NEO for driving and a Falcon 500 for steering.
+     * Creates a Mk4 swerve module that uses a NEO for driving and a Falcon 500 for steering.
      * Module information is displayed in the specified ShuffleBoard container.
      *
      * @param container        The container to display module information in.
@@ -414,7 +416,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses a NEO for driving and a Falcon 500 for steering.
+     * Creates a Mk4 swerve module that uses a NEO for driving and a Falcon 500 for steering.
      * Module information is displayed in the specified ShuffleBoard container.
      *
      * @param container        The container to display module information in.
@@ -437,7 +439,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses a NEO for driving and a Falcon 500 for steering.
+     * Creates a Mk4 swerve module that uses a NEO for driving and a Falcon 500 for steering.
      *
      * @param configuration    Module configuration parameters to use.
      * @param gearRatio        The gearing configuration the module is in.
@@ -469,7 +471,7 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     /**
-     * Creates a Mk4i swerve module that uses a NEO for driving and a Falcon 500 for steering.
+     * Creates a Mk4 swerve module that uses a NEO for driving and a Falcon 500 for steering.
      *
      * @param gearRatio        The gearing configuration the module is in.
      * @param driveMotorPort   The CAN ID of the drive NEO.
@@ -489,9 +491,10 @@ public final class Mk4iSwerveModuleHelper {
     }
 
     public enum GearRatio {
-        L1(SdsModuleConfigurations.MK4I_L1),
-        L2(SdsModuleConfigurations.MK4I_L2),
-        L3(SdsModuleConfigurations.MK4I_L3);
+        L1(SdsModuleConfigurations.MK4_L1),
+        L2(SdsModuleConfigurations.MK4_L2),
+        L3(SdsModuleConfigurations.MK4_L3),
+        L4(SdsModuleConfigurations.MK4_L4);
 
         private final ModuleConfiguration configuration;
 

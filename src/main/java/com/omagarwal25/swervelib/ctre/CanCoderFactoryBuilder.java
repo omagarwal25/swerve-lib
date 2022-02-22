@@ -1,11 +1,11 @@
-package com.swervedrivespecialties.swervelib.ctre;
+package com.omagarwal25.swervelib.ctre;
 
 import com.ctre.phoenix.motorcontrol.StatusFrameEnhanced;
 import com.ctre.phoenix.motorcontrol.can.TalonFX;
 import com.ctre.phoenix.motorcontrol.can.TalonFXConfiguration;
 import com.ctre.phoenix.sensors.AbsoluteSensorRange;
-import com.swervedrivespecialties.swervelib.AbsoluteEncoder;
-import com.swervedrivespecialties.swervelib.AbsoluteEncoderFactory;
+import com.omagarwal25.swervelib.AbsoluteEncoder;
+import com.omagarwal25.swervelib.AbsoluteEncoderFactory;
 
 public class CanCoderFactoryBuilder {
     //    private Direction direction = Direction.COUNTER_CLOCKWISE;

@@ -1,4 +1,4 @@
-package com.swervedrivespecialties.swervelib;
+package com.omagarwal25.swervelib;
 
 public final class SdsModuleConfigurations {
     public static final ModuleConfiguration MK3_STANDARD = new ModuleConfiguration(

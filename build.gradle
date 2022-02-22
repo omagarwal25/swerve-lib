@@ -8,7 +8,7 @@ targetCompatibility = JavaVersion.VERSION_11
 
 allprojects {
     group 'com.omagarwal25'
-    version '1.2.3'
+    version '1.2.4'
 
     repositories {
         mavenCentral()
@@ -20,15 +20,6 @@ allprojects {
 
         // REV
         maven { url = uri('https://maven.revrobotics.com/') }
-
-        maven {
-            name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/omagarwal25/swerve-lib"
-            credentials {
-                username = System.getenv("GITHUB_ACTOR")
-                password = System.getenv("GITHUB_TOKEN")
-            }
-        }
     }
 }
 

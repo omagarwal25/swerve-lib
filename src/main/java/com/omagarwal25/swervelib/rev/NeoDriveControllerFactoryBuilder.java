@@ -1,13 +1,13 @@
-package com.swervedrivespecialties.swervelib.rev;
+package com.omagarwal25.swervelib.rev;
 
 import com.revrobotics.CANSparkMax;
 import com.revrobotics.CANSparkMaxLowLevel;
 import com.revrobotics.RelativeEncoder;
-import com.swervedrivespecialties.swervelib.DriveController;
-import com.swervedrivespecialties.swervelib.DriveControllerFactory;
-import com.swervedrivespecialties.swervelib.ModuleConfiguration;
+import com.omagarwal25.swervelib.DriveController;
+import com.omagarwal25.swervelib.DriveControllerFactory;
+import com.omagarwal25.swervelib.ModuleConfiguration;
 
-import static com.swervedrivespecialties.swervelib.rev.RevUtils.checkNeoError;
+import static com.omagarwal25.swervelib.rev.RevUtils.checkNeoError;
 
 public final class NeoDriveControllerFactoryBuilder {
     private double nominalVoltage = Double.NaN;

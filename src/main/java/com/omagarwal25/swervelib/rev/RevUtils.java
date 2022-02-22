@@ -1,4 +1,4 @@
-package com.swervedrivespecialties.swervelib.rev;
+package com.omagarwal25.swervelib.rev;
 
 import com.revrobotics.REVLibError;
 import edu.wpi.first.wpilibj.DriverStation;
