@@ -1,8 +1,10 @@
 package com.omagarwal25.swervelib.rev;
 
 import com.omagarwal25.swervelib.*;
-import com.revrobotics.*;
-import com.swervedrivespecialties.swervelib.*;
+import com.revrobotics.CANSparkMax;
+import com.revrobotics.CANSparkMaxLowLevel;
+import com.revrobotics.RelativeEncoder;
+import com.revrobotics.SparkMaxPIDController;
 import edu.wpi.first.wpilibj.shuffleboard.ShuffleboardContainer;
 
 public final class NeoSteerControllerFactoryBuilder {
