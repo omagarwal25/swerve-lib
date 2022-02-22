@@ -49,8 +49,12 @@ public class CanCoderFactoryBuilder {
         @Override
         public double getAbsoluteAngle() {
             // check this if this works
-            double angle = Math.toRadians(encoder.getSelectedSensorPosition()) / 12.8;
-            angle %= 2.0 * Math.PI;
+
+            double angle = (encoder.getSelectedSensorPosition() % (2048.0*12.8));
+            angle *= (2048.0*12.8/(2.0*Math.PI));
+//
+//                    Math.toRadians(encoder.getSelectedSensorPosition()) / 12.8;
+//            angle %= 2.0 * Math.PI;
             if (angle < 0.0) {
                 angle += 2.0 * Math.PI;
             }
